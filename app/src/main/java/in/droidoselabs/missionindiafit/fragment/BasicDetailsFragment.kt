@@ -18,8 +18,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.ScrollView
-import `in`.droidoselabs.missionindiafit.CommonData
-import `in`.droidoselabs.missionindiafit.IntroActivity
+import `in`.droidoselabs.missionindiafit.activity.CommonData
+import `in`.droidoselabs.missionindiafit.activity.IntroActivity
 import `in`.droidoselabs.missionindiafit.R
 import `in`.droidoselabs.missionindiafit.utils.ValidateEditText
 import com.theartofdev.edmodo.cropper.CropImage

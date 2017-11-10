@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/spacing_medium"
-        android:textSize="@dimen/font_semi_large"
+        android:textSize="@dimen/font_medium_plus"
         android:gravity="center"
         android:textColor="@android:color/black" />
 

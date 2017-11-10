@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.fragment_gender.*
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.view.animation.ScaleAnimation
-import `in`.droidoselabs.missionindiafit.CommonData
+import `in`.droidoselabs.missionindiafit.activity.CommonData
 
 
 /**

@@ -34,7 +34,7 @@
     <string name="error_invalid_email">Please enter a valid email</string>
     <string name="error_confirm_password_field_empty">Confirm password field cannot be empty</string>
     <string name="error_password_field_empty">Password cannot be empty</string>
-    <string name="error_password_must_be_greater_than_5_character">Password must be greater than 5 characters</string>
+    <string name="error_password_must_be_greater_than_5_character">Password must be greater than 7 characters</string>
     <string name="error_phone_number_field_empty">Mobile Number cannot be empty</string>
     <string name="error_invalid_phone_number">Phone number in invalid</string>
     <string name="error_first_name_field_empty">Name cannot be empty</string>

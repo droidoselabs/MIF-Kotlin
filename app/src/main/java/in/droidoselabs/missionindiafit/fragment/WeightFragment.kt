@@ -11,7 +11,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.NumberPicker
 import android.widget.NumberPicker.OnValueChangeListener
-import `in`.droidoselabs.missionindiafit.CommonData
+import `in`.droidoselabs.missionindiafit.activity.CommonData
 import `in`.droidoselabs.missionindiafit.R
 import `in`.droidoselabs.missionindiafit.adapter.WeightAdapter
 import kotlinx.android.synthetic.main.fragment_weight.*

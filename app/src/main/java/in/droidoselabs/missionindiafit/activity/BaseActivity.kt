@@ -1,4 +1,4 @@
-package `in`.droidoselabs.missionindiafit
+package `in`.droidoselabs.missionindiafit.activity
 
 import android.content.Context
 import android.support.v7.app.AppCompatActivity

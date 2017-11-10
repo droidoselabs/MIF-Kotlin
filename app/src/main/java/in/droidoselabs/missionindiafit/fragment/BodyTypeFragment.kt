@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import `in`.droidoselabs.missionindiafit.CommonData
+import `in`.droidoselabs.missionindiafit.activity.CommonData
 
 import `in`.droidoselabs.missionindiafit.R
 import kotlinx.android.synthetic.main.fragment_body_type.*

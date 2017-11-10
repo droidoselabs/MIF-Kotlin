@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/darkBlue"
     android:orientation="vertical"
-    tools:context="in.droidoselabs.missionindiafit.MainActivity">
+    tools:context="in.droidoselabs.missionindiafit.activity.MainActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"

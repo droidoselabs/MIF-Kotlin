@@ -10,8 +10,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import `in`.droidoselabs.missionindiafit.CommonData
-import `in`.droidoselabs.missionindiafit.IntroActivity
+import `in`.droidoselabs.missionindiafit.activity.CommonData
+import `in`.droidoselabs.missionindiafit.activity.IntroActivity
 import `in`.droidoselabs.missionindiafit.R
 import kotlinx.android.synthetic.main.fragment_get_started.*
 

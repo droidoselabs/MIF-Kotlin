@@ -1,5 +1,6 @@
-package `in`.droidoselabs.missionindiafit
+package `in`.droidoselabs.missionindiafit.activity
 
+import `in`.droidoselabs.missionindiafit.R
 import android.animation.ObjectAnimator
 import android.animation.PropertyValuesHolder
 import android.content.Intent

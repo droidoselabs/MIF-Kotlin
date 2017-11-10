@@ -1,5 +1,6 @@
-package `in`.droidoselabs.missionindiafit
+package `in`.droidoselabs.missionindiafit.activity
 
+import `in`.droidoselabs.missionindiafit.R
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager

@@ -26,7 +26,7 @@ private constructor() {
 
     companion object {
         private val REGEX_MORE_SPACE = "[ ]{2,}"
-        private val PASSWORD_LENGTH = 6
+        private val PASSWORD_LENGTH = 8
         private val MIN_NAME_LENGTH = 2
         /**
          * @param et instance of edit text

@@ -1,5 +1,6 @@
-package `in`.droidoselabs.missionindiafit
+package `in`.droidoselabs.missionindiafit.activity
 
+import `in`.droidoselabs.missionindiafit.PaperDbConstant
 import android.net.Uri
 import io.paperdb.Paper
 

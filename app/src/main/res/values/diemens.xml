@@ -10,6 +10,7 @@
 
     <!-- Font sizes-->
     <dimen name="font_medium">16sp</dimen>
+    <dimen name="font_medium_plus">18sp</dimen>
     <dimen name="font_semi_large">20sp</dimen>
     <dimen name="font_large">24sp</dimen>
     <dimen name="font_huge">40sp</dimen>

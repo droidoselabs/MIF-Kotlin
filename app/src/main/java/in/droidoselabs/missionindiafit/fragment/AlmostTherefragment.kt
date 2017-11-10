@@ -1,6 +1,9 @@
 package `in`.droidoselabs.missionindiafit.fragment
 
 
+import `in`.droidoselabs.missionindiafit.R
+import `in`.droidoselabs.missionindiafit.activity.CommonData
+import `in`.droidoselabs.missionindiafit.activity.HomeActivity
 import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -10,9 +13,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.Toast
 import com.bumptech.glide.Glide
-import `in`.droidoselabs.missionindiafit.CommonData
-import `in`.droidoselabs.missionindiafit.MainActivity
-import `in`.droidoselabs.missionindiafit.R
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
@@ -69,7 +69,7 @@ class AlmostTherefragment : Fragment() {
 
                     uploadTask.addOnSuccessListener {
                         myUsersRef.push().setValue(userData)
-                        startActivity(Intent(activity, MainActivity::class.java))
+                        startActivity(Intent(activity, HomeActivity::class.java))
                     }.addOnFailureListener { e ->
                         Toast.makeText(activity, "Upload Failed -> " + e, Toast.LENGTH_SHORT).show()
                     }

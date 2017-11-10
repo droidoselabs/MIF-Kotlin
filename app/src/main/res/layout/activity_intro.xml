@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/MatchParent"
     android:orientation="vertical"
-    tools:context="in.droidoselabs.missionindiafit.IntroActivity">
+    tools:context="in.droidoselabs.missionindiafit.activity.IntroActivity">
 
     <in.droidoselabs.missionindiafit.utils.NonSwipeableViewPager
         android:id="@+id/vpMain"
         style="@style/MatchParent"
         android:overScrollMode="never"
-        tools:context=".IntroActivity" />
+        tools:context=".activity.IntroActivity" />
 
     <LinearLayout
         style="@style/MatchWrap"
