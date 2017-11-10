@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="darkBlue">#455A64</color>
+    <color name="colorPrimaryDark">@android:color/black</color>
+    <color name="colorAccent">#607D8B</color>
+    <color name="lightBlue">#90A4AE</color>
+    <color name="white">@android:color/white</color>
+    <color name="fadeWhite">#50ffffff</color>
+    <color name="blue">#455A64</color>
+    <color name="lightGray">#BDBDBD</color>
+    <color name="unselectedColor">#B0BEC5</color>
+    <color name="fragementBg">#25292D</color>
+    <color name="grayColor">#666</color>
+    <color name="darkGrayColor">#333</color>
+</resources>

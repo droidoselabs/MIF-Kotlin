@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/spacing_medium"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_large" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_medium"
+        android:textSize="@dimen/font_semi_large"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnNegative"
+            style="@style/BasicDetailsButton"
+            android:background="@color/colorPrimary"
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/spacing_small"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnPositive"
+            style="@style/BasicDetailsButton"
+            android:layout_width="0dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/spacing_small"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchParent"
+    android:orientation="vertical"
+    tools:context="in.droidoselabs.missionindiafit.IntroActivity">
+
+    <in.droidoselabs.missionindiafit.utils.NonSwipeableViewPager
+        android:id="@+id/vpMain"
+        style="@style/MatchParent"
+        android:overScrollMode="never"
+        tools:context=".IntroActivity" />
+
+    <LinearLayout
+        style="@style/MatchWrap"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <com.rd.PageIndicatorView
+            android:id="@+id/pageIndicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/large_size"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/spacing_tiny"
+            attrs:dynamicCount="true"
+            attrs:piv_animationType="worm"
+            attrs:piv_selectedColor="@color/colorPrimary"
+            attrs:piv_unselectedColor="@color/unselectedColor"
+            attrs:piv_viewPager="@id/vpMain" />
+
+        <LinearLayout
+            android:id="@+id/llNext"
+            android:layout_width="@dimen/fourty_dp"
+            android:layout_height="@dimen/fourty_dp"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:layout_marginTop="-5dp"
+            android:visibility="gone"
+            android:background="@drawable/circular_male_gender">
+
+            <ImageView
+                style="@style/MatchParent"
+                android:src="@drawable/ic_right_white_24dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

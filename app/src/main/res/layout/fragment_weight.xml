@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/MatchParent"
+    android:background="@color/fragementBg"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/BasicDetailsTextView"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="@string/choose_your_weight_and_height"
+        android:textSize="@dimen/font_large" />
+
+    <TextView
+        style="@style/BasicDetailsTextView"
+        android:padding="@dimen/spacing_medium"
+        android:text="@string/this_will_help_us_choose_right_no_of_reps"
+        android:textSize="@dimen/font_medium" />
+
+    <LinearLayout
+        style="@style/MatchWrap"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvLbsWeight"
+            style="@style/BasicDetailsTextView"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:text="@string/lbs_weight"
+            android:textColor="@color/fadeWhite"
+            android:textSize="@dimen/font_medium" />
+
+        <TextView
+            android:id="@+id/tvKgWeight"
+            style="@style/BasicDetailsTextView"
+            android:text="@string/kg_weight"
+            android:textSize="@dimen/font_large" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_downward_white_24dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:orientation="horizontal">
+
+        <biz.kasual.materialnumberpicker.MaterialNumberPicker
+            android:id="@+id/npFeet"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/spacing_small"
+            android:layout_weight="0.5"
+            app:npBackgroundColor="@android:color/transparent"
+            app:npDefaultValue="5"
+            app:npMaxValue="8"
+            app:npMinValue="3"
+            app:npWrapValue="true"
+            app:npSeparatorColor="@color/white"
+            app:npTextColor="@color/white"
+            app:npTextSize="@dimen/font_medium" />
+
+        <biz.kasual.materialnumberpicker.MaterialNumberPicker
+            android:id="@+id/npInches"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/spacing_small"
+            android:layout_weight="0.5"
+            app:npBackgroundColor="@android:color/transparent"
+            app:npDefaultValue="0"
+            app:npMaxValue="12"
+            app:npMinValue="0"
+            app:npWrapValue="true"
+            app:npSeparatorColor="@color/white"
+            app:npTextColor="@color/white"
+            app:npTextSize="@dimen/font_medium" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/MatchParent"
+    android:background="@color/fragementBg">
+
+    <TextView
+        style="@style/BasicDetailsTextView"
+        android:text="@string/setup_your_profile"
+        android:textSize="@dimen/font_large" />
+
+    <TextView
+        style="@style/BasicDetailsTextView"
+        android:layout_marginTop="@dimen/spacing_xl"
+        android:padding="@dimen/spacing_small"
+        android:text="@string/this_will_help_us_and_people_to_reach_out_you"
+        android:textSize="@dimen/font_medium" />
+
+    <LinearLayout
+        style="@style/MatchParent"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/huge_size"
+            android:layout_height="@dimen/huge_size"
+            android:src="@drawable/ic_user" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svForm"
+        style="@style/MatchParent"
+        android:layout_marginTop="@dimen/huge_size"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            style="@style/MatchWrap"
+            android:gravity="center">
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:id="@+id/name"
+                style="@style/BasicDetailsMaterialTextView"
+                app:mtf_image="@drawable/ic_face_black_24dp">
+
+                <EditText
+                    android:id="@+id/nameText"
+                    style="@style/BasicDetailsEditText"
+                    android:hint="@string/name" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:id="@+id/email"
+                style="@style/BasicDetailsMaterialTextView"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="@dimen/spacing_tiny"
+                app:mtf_image="@drawable/ic_mail_black_24dp">
+
+                <EditText
+                    android:id="@+id/emailText"
+                    style="@style/BasicDetailsEditText"
+                    android:hint="@string/email" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:id="@+id/password"
+                style="@style/BasicDetailsMaterialTextView"
+                android:layout_below="@+id/email"
+                android:layout_marginTop="@dimen/spacing_tiny"
+                app:mtf_image="@drawable/ic_vpn_key_black_24dp">
+
+                <EditText
+                    android:id="@+id/passwordText"
+                    style="@style/BasicDetailsEditText"
+                    android:hint="@string/password"
+                    android:inputType="textPassword" />
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:id="@+id/cpassword"
+                style="@style/BasicDetailsMaterialTextView"
+                android:layout_below="@+id/password"
+                android:layout_marginTop="@dimen/spacing_tiny"
+                app:mtf_image="@drawable/ic_vpn_key_black_24dp">
+
+                <EditText
+                    android:id="@+id/cpasswordText"
+                    style="@style/BasicDetailsEditText"
+                    android:hint="@string/confirm_password"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword" />
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+            <Button
+                android:id="@+id/btnContinue"
+                style="@style/BasicDetailsButton"
+                android:layout_below="@+id/cpassword"
+                android:text="@string/keep_going" />
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

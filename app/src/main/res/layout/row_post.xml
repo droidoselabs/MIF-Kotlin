@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing_tiny">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/rajat" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/spacing_tiny"
+                    android:gravity="center|start"
+                    android:text="Rajat Dhamija"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/font_medium" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/spacing_tiny"
+                    android:gravity="center|start"
+                    android:text="Oct 20, 2017 10:00 pm"
+                    android:textSize="12sp"
+                    android:textColor="@color/grayColor" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/spacing_tiny"
+            android:layout_marginTop="@dimen/spacing_tiny"
+            android:gravity="center|start"
+            android:text="No Pain No gain, the only bad workout is one that never happen. No Pain No gain, the only bad workout is one that never happen."
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_tiny">
+
+            <ImageView
+                android:id="@+id/imageOne"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/spacing_vtiny"
+                android:layout_weight="0.5"
+                android:scaleType="centerCrop"
+                android:src="@drawable/one" />
+
+            <LinearLayout
+                android:id="@+id/llTwo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/spacing_vtiny"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_vtiny"
+                    android:layout_weight="0.5"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/one" />
+
+                <RelativeLayout
+                    android:id="@+id/rlTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_vtiny"
+                    android:layout_weight="0.5">
+
+                    <ImageView
+                        android:id="@+id/imageThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/one"
+                        android:visibility="visible" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlCount"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#99000000">
+
+                        <TextView
+                            android:id="@+id/tvCount"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/more"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_huge" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_tiny">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/spacing_tiny"
+                    android:drawablePadding="@dimen/spacing_tiny"
+                    android:drawableStart="@drawable/ic_002_holidays"
+                    android:text="Like"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/spacing_tiny"
+                    android:drawablePadding="@dimen/spacing_tiny"
+                    android:drawableStart="@drawable/ic_comment"
+                    android:text="Comment"
+                    android:textSize="17sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/spacing_tiny"
+                    android:drawablePadding="@dimen/spacing_tiny"
+                    android:drawableStart="@drawable/ic_001_arrows"
+                    android:text="Share"
+                    android:textSize="17sp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

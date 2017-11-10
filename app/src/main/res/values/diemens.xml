@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing-->
+    <dimen name="spacing_vtiny">1dp</dimen>
+    <dimen name="spacing_tiny">5dp</dimen>
+    <dimen name="spacing_small">10dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_xl">48dp</dimen>
+    <dimen name="spacing_xxl">60dp</dimen>
+
+    <!-- Font sizes-->
+    <dimen name="font_medium">16sp</dimen>
+    <dimen name="font_semi_large">20sp</dimen>
+    <dimen name="font_large">24sp</dimen>
+    <dimen name="font_huge">40sp</dimen>
+
+    <!-- Other dimensions-->
+    <dimen name="huge_size">200dp</dimen>
+    <dimen name="semi_huge_size">160dp</dimen>
+    <dimen name="xl_size">100dp</dimen>
+    <dimen name="large_size">30dp</dimen>
+    <dimen name="medium_size">20dp</dimen>
+    <dimen name="semi_medium_size">18dp</dimen>
+    <dimen name="larger_size">35dp</dimen>
+    <dimen name="fourty_dp">40dp</dimen>
+    <dimen name="xlarge_size">70dp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Mission India Fit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Get Started Screen-->
+    <string name="setup_your_profile">Setup your Profile !</string>
+    <string name="this_will_help_us_and_people_to_reach_out_you">This will help us and people to reach out you.</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="keep_going">Keep Going</string>
+    <string name="get_started">Get Started</string>
+
+    <!--Gender Fragment-->
+    <string name="choose_your_gender">Choose Your Gender !</string>
+    <string name="this_will_help_us_choose_right_no_of_reps">This will help us choose right number of reps, weights, and nutritional values for you !</string>
+
+    <!--Body Type Fragment-->
+    <string name="choose_your_bodytype">Choose Your Body type !</string>
+    <string name="this_will_help_us_choose_right_schedule">This will help us choose right schedule that suits you the best !</string>
+    <string name="ectomorph">Ectomorph</string>
+
+    <!--Weight fragment-->
+    <string name="choose_your_weight_and_height">Choose Your Weight &amp; Height !</string>
+    <string name="lbs_weight">118 Lbs</string>
+    <string name="kg_weight">55 Kg</string>
+    <string name="you_are_almost_there">You are almost there. We appreciate your patience.</string>
+    <string name="signing_up">Signing Up ....</string>
+    <!--Errors-->
+    <string name="error_email_field_empty">Email cannot be empty</string>
+    <string name="error_invalid_email">Please enter a valid email</string>
+    <string name="error_confirm_password_field_empty">Confirm password field cannot be empty</string>
+    <string name="error_password_field_empty">Password cannot be empty</string>
+    <string name="error_password_must_be_greater_than_5_character">Password must be greater than 5 characters</string>
+    <string name="error_phone_number_field_empty">Mobile Number cannot be empty</string>
+    <string name="error_invalid_phone_number">Phone number in invalid</string>
+    <string name="error_first_name_field_empty">Name cannot be empty</string>
+    <string name="error_last_name_field_empty">Last name cannot be empty</string>
+    <string name="error_first_name_special_number_character">No special character are allowed in name</string>
+    <string name="error_last_name_special_number_character">No special character are allowed in name</string>
+    <string name="error_first_name_two_character_long">Name should be atleast 2 characters long</string>
+    <string name="error_last_name_two_character_long">Name should be atleast 2 characters long</string>
+    <string name="text_ok">Ok</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+    <string name="error_password_mismatch">Password Missmatch</string>
+    <string name="kg">&#160;kg</string>
+    <string name="lbs">&#160;Lbs</string>
+    <string name="home">Home</string>
+    <string name="nutritional_info">Nutritional Info</string>
+    <string name="recipies">Recipes</string>
+    <string name="workout_plans">Workout Plans</string>
+    <string name="logout">Logout</string>
+    <string name="more">+5 \n more</string>
+</resources>

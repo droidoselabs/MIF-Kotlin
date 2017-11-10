@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchParent"
+    android:background="@color/fragementBg">
+
+    <TextView
+        style="@style/BasicDetailsTextView"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="@string/choose_your_gender"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_large" />
+
+    <TextView
+        style="@style/BasicDetailsTextView"
+        android:layout_marginTop="@dimen/spacing_xl"
+        android:padding="@dimen/spacing_small"
+        android:text="@string/this_will_help_us_choose_right_no_of_reps"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_medium" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/huge_size"
+        android:layout_height="@dimen/xlarge_size"
+        android:layout_gravity="center"
+        android:background="@drawable/circular_bg">
+
+        <View
+            android:id="@+id/view_center"
+            style="@style/GenderFragmentView"
+            android:background="@drawable/circular_bg_blue"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/view_center_black"
+            style="@style/GenderFragmentView"
+            android:background="@drawable/circular_bg"
+            android:visibility="gone" />
+
+
+        <FrameLayout style="@style/SeventyDP">
+
+            <View
+                android:id="@+id/view_male"
+                style="@style/View"
+                android:visibility="visible"/>
+
+            <ImageView style="@style/ViewWithImage" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/SeventyDP">
+
+            <View
+                android:id="@+id/view_move"
+                style="@style/View" />
+
+            <ImageView
+                android:id="@+id/male"
+                style="@style/ViewWithImage" />
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/SeventyDP"
+            android:layout_marginStart="130dp">
+
+            <View
+                android:id="@+id/view_female"
+                style="@style/SeventyDP"
+                android:background="@drawable/circular_male_gender"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/female"
+                android:layout_width="@dimen/spacing_xxl"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/spacing_tiny"
+                android:padding="19dp"
+                android:src="@drawable/ic_female" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</FrameLayout>
